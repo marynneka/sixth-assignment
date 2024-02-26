@@ -1,0 +1,441 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+  
+}
+
+/* mobile first design  */
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#container1{
+  /* background-image: url(/assets/images/mobile5.jpg); */
+  background-color: #eff8ff; 
+  /* border: 1px solid; */
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.btn-login,nav ul,
+button {
+  display: none;
+}
+
+nav img {
+  width: 120px;
+  cursor: pointer;
+}
+
+nav h3 {
+  font-size: 30px;
+}
+
+.new{
+  font-size: 15px;
+  margin-top: 30px;
+  width:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.connect{
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #102a43;
+  padding: 0px 50px;
+  margin-top: -10px;
+  line-height: 50px;
+}
+
+.connect span{
+  color: #06a0f1;
+}
+
+.new span{
+color: white;
+background-color: #06a0f1;
+border-radius: 25px;
+padding: 2px 12px;
+}
+
+.new p{
+  color: #55c1ff;
+  background-color: #dff1ff;
+  border-radius: 10px;
+  padding: 5px 10px 5px 3px ;
+}
+
+.say{
+  color: #4b6783;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 20px;
+  margin-top: -20px
+}
+
+.img1{
+  display: flex;
+  gap: 20px;
+  height: 40px;
+  cursor: pointer;
+  margin:30px 70px;
+}
+.img1 img{
+  border-radius: 10px;
+}
+.effortless{
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+
+.effortless img{
+  width: 100%;
+  margin-left: 90px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#container2{
+  background-color: #fffdfa;
+  width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.abeg{
+    width: 80%;
+    height: 300px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+.abeg1 img{
+width: 80%;
+height: 250px;
+margin-left: 80px;
+margin-top: 25px;
+}
+.abeg2 img{
+  z-index: 1;
+  width: 50%;
+  position: relative;
+  bottom: 250px;
+}
+.Rev{
+  color: #475b6e;
+  font-size: 15px;
+  width: 80%;
+  height: 350px;
+  /* border: 1px solid red; */
+
+}
+.Rev h1{
+  line-height: 35px;
+  margin-top: 40px;
+}
+.Rev span{
+  color: #06a0f1;
+}
+.Rev button{
+  display: flex;
+  font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    background-color: #06a0f1;
+    color: white;
+    padding: 15px 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#container3{
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+}
+.abegbot{
+  width: 85%;
+    height: 420px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+.abegbot1 img{
+  width: 60%;
+  height: 400px;
+  margin-left: 115px;
+  margin-top: 0px; 
+}
+.abegbot2 img{
+  z-index: 1;
+  width: 50%;
+  position: relative;
+  bottom: 240px;
+  border-radius: 20px;
+}
+.virtual{
+  /* border: 1px solid blue; */
+  width: 85%;
+  height: 400px;
+  color: #102a42;
+}
+.virtual span{
+  color: #06a0f1;
+}
+.virtual h1{
+  font-size: 30px;
+}
+.virtual p{
+  font-size: 15px;
+}
+.virtual ul{
+  font-weight: bold;
+  line-height: 35px;
+}
+
+/* laptop first design  */
+@media only screen and (min-width: 1024px) {
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav h3 {
+    display: none;
+  }
+
+  nav {
+  padding: 0px 80px;
+  align-items: center;
+ font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #395066;
+  }
+
+  .btn-login:hover, a:hover{
+    color:  #06a0f1;
+    font-weight: bold;
+  }
+
+  nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    
+  }
+
+  button {
+    display: flex;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+
+  button:hover{
+    color: white;
+    background-color: #06a0f1;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  .btn-login {
+    display: flex;
+    padding-left: 400px;
+    cursor: pointer;
+  }
+
+  .new{
+    font-size: 15px;
+    margin-top: 110px;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .connect{
+    font-size: 35px;
+    padding: 0px 180px;
+    line-height: 85px;
+    margin-top: 10px;
+    margin-top: -35px
+  }
+
+  .say{
+    padding: 0px 400px;
+    font-size: 18px;
+    margin-top: -40px
+  }
+
+  .img1{
+    display: flex;
+    gap: 25px;
+    height: 50px;
+    cursor: pointer;
+    width: 170px;
+    transition: (0.5s);
+    margin:40px 500px;
+  }
+  .img1:hover{
+transform: scale(1.1);
+  }
+  .img1 img{
+    border-radius: 10px;
+  }
+  .effortless{
+    background-image: url(/assets/images/Mobile-App-Hero-BG-2.webp);
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-top: 70px;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+  }
+ 
+  .effortless img{
+    width: 80%;
+    margin-left: 90px;
+  }
+
+#container2{
+  background-color: #fffdfa;
+  width: 100%;
+  height: 700px;
+  /* border: 1px solid black; */
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+}
+.Rev{
+  color: #475b6e;
+  font-size: 28px;
+  width: 40%;
+  height: 500px;
+  /* border: 1px solid red; */
+  /* border: none; */
+  margin-left: 80px;
+/* margin-right: auto; */
+}
+.Rev p{
+  font-size: 18px;
+}
+.Rev h1{
+  line-height: 70px;
+  margin-top: 80px;
+  font-size: 50px;
+}
+
+.abeg{
+  width: 40%;
+  height: 500px;
+  /* border: 1px solid red; */
+  /* border: none; */
+  margin-top: 0%;
+  margin-right: 80px;
+  /* margin: auto; */
+}
+.abeg1 img{
+width: 70%;
+height: 350px;
+margin-left: 130px;
+margin-top: 130px;
+}
+.abeg2 img{
+z-index: 1;
+width: 50%;
+position: relative;
+bottom: 350px;
+}
+
+#container3{
+  width: 100%;
+  height: 600px;
+  background-color: #ffffff;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.abegbot{
+  width: 50%;
+  height: 500px;
+  /* border: 1px solid red; */
+  /* border: none; */
+  margin-top: 0%;
+  margin-left: 80px;
+  margin-right: 80px;
+  /* margin: auto; */
+}
+.abegbot1 img{
+  width: 50%;
+  height: 490px;
+  margin-left: 200px;
+  margin-top: 0px;
+}
+.abegbot2 img{
+  z-index: 1;
+width: 60%;
+height: 210px;
+position: relative;
+bottom: 305px;
+border-radius: 20px;
+}
+
+.virtual{
+  color: #475b6e;
+  font-size: 20px;
+  width: 50%;
+  height: 500px;
+  /* border: 1px solid blue; */
+  /* border: none; */
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.virtual span{
+  color: #06a0f1;
+}
+.virtual p{
+  font-size: 18px;
+}
+.virtual h1{
+  line-height: 60px;
+  margin-top: 0;
+  font-size: 50px;
+}
+.vitual ul li{
+  /* line-height: 50px; */
+}
+
+
+
+
+}
